@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+.course-container{
+    margin:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:60px;
+}
+.course-box{
+    width:280px;
+    height: 350px;
+    background-color: #cef4e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+}
+.course-box:hover{
+    box-shadow: 0 0 20px rgba(14, 181, 130, 0.6);
+}
+.course-image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.course-image img:hover{
+    transition: 0.5ms;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    animation: rotate 2s infinite linear;
+}
+.course-info h2{
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color:#273c66;
+}
+.course-info h3{
+    font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color:#273c66;
+}
+.course-info{
+    display: inline;
+    align-items: start;
+    justify-content: space-between;
+    gap:20px;
+    margin-top: 15px;
+}
+.course-container button{
+    margin-top: 10px;
+    padding: 10px;
+    color:  #0eb582;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: 550;
+}
+.course-container button:hover{
+    color: #ffffff;
+    background-color: #0eb582;
+    cursor: pointer;
+}
+@keyframes rotate {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+    
+}

@@ -1,0 +1,10 @@
+{
+    "slider": [
+      { "src": "src/assets/Images/1.png", "alt": "image1" },
+      { "src": "src/assets/Images/2.png", "alt": "image2" },
+      { "src": "src/assets/Images/3.png", "alt": "image3" },
+      { "src": "src/assets/Images/4.png", "alt": "image4" },
+      { "src": "src/assets/Images/5.png", "alt": "image5" },
+      { "src": "src/assets/Images/6.png", "alt": "image6" }
+    ]
+  }
