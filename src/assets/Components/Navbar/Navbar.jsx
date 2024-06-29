@@ -9,26 +9,26 @@ const Navbar = () => {
         <img src={Logo} alt="Logo" />
         <ul className="Navbar-item">
           <li className="nav-item">
-            <Link to="/"  onClick={() => setMenu("home")}>Home</Link>
+            <Link to="/Project_2"  onClick={() => setMenu("home")}>Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/Branches" >Branches</Link>
+            <Link to="/Project_2/Branches" >Branches</Link>
           </li>
           <li className="nav-item">
-            <Link to="/">Online-Courses</Link>
+            <Link to="/Project_2">Online-Courses</Link>
           </li>
           <li className="nav-item">
-            <Link to="/Course">Courses</Link>
+            <Link to="/Project_2/Course">Courses</Link>
           </li>
           <li className="nav-item">
-            <Link to="/Aboutus">About us</Link>
+            <Link to="/Project_2/Aboutus">About us</Link>
           </li>
           <li className="nav-item">
-            <Link to="/Contact">Contact</Link>
+            <Link to="/Project_2/Contact">Contact</Link>
           </li>
         </ul>
         <span className="certification">
-          <Link to="/">Enroll Now</Link>
+          <Link to="/Project_2">Enroll Now</Link>
         </span>
       </nav>
   );
