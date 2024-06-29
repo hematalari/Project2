@@ -1,21 +1,21 @@
 const courses_info = [
     {
-        src:"src/assets/images/Accounts.png",
+        src:"/Project_2/src/assets/images/Accounts.png",
         name:"ACCOUNTS",
         cert:"Certification"
     },
     {
-        src:"src/assets/images/Beautican.png",
+        src:"/Project_2/src/assets/images/Beautican.png",
         name:"BEAUTICAN",
         cert:"Certification"
     },
     {
-        src:"src/assets/images/Spoken English.png",
+        src:"/Project_2/src/assets/images/Spoken English.png",
         name:"SPOKEN ENGLISH",
         cert:"Certification"
     },
     {
-        src:"src/assets/images/MS Office.png",
+        src:"/Project_2/src/assets/images/MS Office.png",
         name:"MS OFFICE",
         cert:"Certification"
     },
@@ -25,12 +25,12 @@ const courses_info = [
     //     cert:"Certification"
     // },
     {
-        src:"src/assets/images/Tailoring.png",
+        src:"/Project_2/src/assets/images/Tailoring.png",
         name:"TAILORING",
         cert:"Certification"
     },
     {
-        src:"src/assets/images/tally.png",
+        src:"/Project_2/src/assets/images/tally.png",
         name:"TALLY",
         cert:"Certification"
     }

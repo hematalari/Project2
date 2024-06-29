@@ -7,7 +7,7 @@ import Courses from '../../Components/Courses/Courses.jsx';
 import Footer from '../../Components/Footer/Footer.jsx';
 
 
-const Course = ({courses}) => {
+const Course = () => {
   return (
     <div>
         <Navbar />

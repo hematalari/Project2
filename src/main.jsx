@@ -17,35 +17,35 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "Home",
+    path: "/Project_2",
     element: <App />,
   },
   {
-    path: "/",
+    path: "/Project_2",
     element: <App />,
   },
   {
-    path: "Branches",
+    path: "/Project_2/Branches",
     element: <Branches />,
   },
   {
-    path: "Ocourses",
+    path: "/Project_2",
     element: <Ocourses />,
   },
   {
-    path: "Course",
+    path: "/Project_2/Course",
     element: <Course />,
   },
   {
-    path: "Aboutus",
+    path: "/Project_2/Aboutus",
     element: <Aboutus />,
   },
   {
-    path: "Contact",
+    path: "/Project_2/Contact",
     element: <Contact />,
   },
   {
-    path: "Enroll",
+    path: "/Project_2",
     element: <Enroll />,
   },
 ]);
@@ -53,7 +53,9 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <React.StrictMode>
   <RouterProvider router={router} />
+  </React.StrictMode>
 )
 
 
