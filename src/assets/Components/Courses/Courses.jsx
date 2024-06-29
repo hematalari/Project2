@@ -19,7 +19,7 @@ const Courses = ({courses}) => {
             </div>
         })}
     </div>
-  )
-}
+  );
+};
 
 export default Courses

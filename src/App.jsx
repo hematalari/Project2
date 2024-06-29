@@ -1,4 +1,3 @@
-import './App.css'
 import React from 'react'
 import Navbar from './assets/Components/Navbar/Navbar'
 import {slider} from './assets/Data/data.json';

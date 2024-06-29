@@ -4,7 +4,7 @@
     margin: 0;
 }
 .Navbar{
-    background-color: #273c66;
+    background-color: #ffffff;
     height: 70px;
     width:100%;
     display: flex;
@@ -15,7 +15,7 @@
     height: 60px;
     width:150px;
 }
-.Navbar-menu{
+.Navbar-item{
     display: flex;
     align-items: center;
     gap:50px;
@@ -24,20 +24,20 @@
     font-weight: 400;
     font-style: normal;
 }
-.Navbar-menu a{
+.Navbar-item a{
    font-size: 20px;
    text-decoration: none;
-   color: #ffffff;
+   color: #273c66;
 }
-.Navbar-menu a:hover{
+.nav-item a:hover{
     color:#0eb582;
 }
 .certification{
-    font-size: 20px;
+    font-size: 18px;
     color:#0eb582;
     background-color: #ffffff;
     border: 1px solid black;
-    padding: 10px;
+    padding: 8px;
     border-radius: 25px;
     font-family: "Kalam", cursive;
     font-weight: 600;

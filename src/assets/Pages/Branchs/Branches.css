@@ -1,0 +1,43 @@
+.branches{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.branches-name{
+    font-size: 24px;
+}
+.branches-address{
+    width:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+    margin: 20px;
+}
+.branches-address p{
+    font-size: 18px;
+}
+.branches-address .icon{
+    font-size: 20px;
+}
+.branches-contact{
+    width:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+    margin-bottom:20px;
+}
+.branches-contact a{
+    width:400px;
+    font-size: 18px;
+}
+.branches-contact .icon{
+    font-size: 20px;
+}
+.branches hr{
+    color: black;
+    font-size: 3px;
+}

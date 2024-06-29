@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css'
-import logo from '../../Images/sd logo.png'
+import logo from '../../Images/LOGO.jpeg'
 import { FaRegCopyright,FaFacebook, FaYoutube,FaInstagramSquare,FaTwitter} from "react-icons/fa";
 
 const Footer = () => {
@@ -26,8 +26,8 @@ const Footer = () => {
       </div>
       <div className="footer-left">
         <h2>Contact Now</h2>
-        <p>+91 8125251805</p>
-        <p>info@nithyatechnologies.com</p>
+        <p>+91 81251 75623</p>
+        <p>nithyatch.vja@gmail.com</p>
       </div>
     </div>
     <div className="footer-bottom">
