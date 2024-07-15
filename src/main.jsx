@@ -17,35 +17,35 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/Project_2",
+    path: "/Project2",
     element: <App />,
   },
   {
-    path: "/Project_2",
+    path: "/Project2",
     element: <App />,
   },
   {
-    path: "/Project_2/Branches",
+    path: "/Project2/Branches",
     element: <Branches />,
   },
   {
-    path: "/Project_2",
+    path: "/Project2",
     element: <Ocourses />,
   },
   {
-    path: "/Project_2/Course",
+    path: "/Project2/Course",
     element: <Course />,
   },
   {
-    path: "/Project_2/Aboutus",
+    path: "/Project2/Aboutus",
     element: <Aboutus />,
   },
   {
-    path: "/Project_2/Contact",
+    path: "/Project2/Contact",
     element: <Contact />,
   },
   {
-    path: "/Project_2",
+    path: "/Project2",
     element: <Enroll />,
   },
 ]);
