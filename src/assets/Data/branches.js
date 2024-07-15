@@ -1,31 +1,31 @@
 const courses_info = [
     {
-        src:"./src/assets/images/Accounts.png",
+        src:"./assets/images/Accounts.png",
         name:"ACCOUNTS",
         cert:"Certification"
     },
     {
-        src:"./src/assets/images/Beautican.png",
+        src:"./assets/images/Beautican.png",
         name:"BEAUTICAN",
         cert:"Certification"
     },
     {
-        src:"./src/assets/images/Spoken English.png",
+        src:"./assets/images/Spoken English.png",
         name:"SPOKEN ENGLISH",
         cert:"Certification"
     },
     {
-        src:"./src/assets/images/MS Office.png",
+        src:"./assets/images/MS Office.png",
         name:"MS OFFICE",
         cert:"Certification"
     },
     {
-        src:"./src/assets/images/Tailoring.png",
+        src:"./assets/images/Tailoring.png",
         name:"TAILORING",
         cert:"Certification"
     },
     {
-        src:"./src/assets/images/tally.png",
+        src:"./assets/images/tally.png",
         name:"TALLY",
         cert:"Certification"
     }
