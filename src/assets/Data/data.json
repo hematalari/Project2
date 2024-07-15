@@ -1,10 +1,10 @@
 {
     "slider": [
-      { "src": "Project2/assets/Images/image1.png", "alt": "image1" },
-      { "src": "Project2/assets/Images/image2.png", "alt": "image2" },
-      { "src": "Project2/assets/Images/image3.png", "alt": "image3" },
-      { "src": "Project2/assets/Images/image4.png", "alt": "image4" },
-      { "src": "Project2/assets/Images/image5.png", "alt": "image5" },
-      { "src": "Project2/assets/Images/image6.png", "alt": "image6" }
+      { "src": "/Project2/assets/Images/image1.png", "alt": "image1" },
+      { "src": "/Project2/assets/Images/image2.png", "alt": "image2" },
+      { "src": "/Project2/assets/Images/image3.png", "alt": "image3" },
+      { "src": "/Project2/assets/Images/image4.png", "alt": "image4" },
+      { "src": "/Project2/assets/Images/image5.png", "alt": "image5" },
+      { "src": "/Project2/assets/Images/image6.png", "alt": "image6" }
     ]
   }
